@@ -262,7 +262,7 @@ export default {
 
     try {
       const response = await axios.post(
-        "https://thesis-backend-vd4s.onrender.com/api/chat",
+        "https://thesis-backend-transparent.onrender.com/api/chat",
         {
           // const response = await axios.post("http://localhost:3000/api/chat", {
           userId,
@@ -585,7 +585,7 @@ export default {
 
       try {
         const response = await axios.post(
-          "https://thesis-backend-vd4s.onrender.com/api/chat",
+          "https://thesis-backend-transparent.onrender.com/api/chat",
           {
             // const response = await axios.post("http://localhost:3000/api/chat", {
             userId,
