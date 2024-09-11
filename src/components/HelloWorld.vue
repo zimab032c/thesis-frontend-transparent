@@ -1354,10 +1354,15 @@ button:focus {
 
 .messages::-webkit-scrollbar-track {
   background: #f1f1f1;
+  margin: 10px 0; 
+  border-radius: 10px; 
 }
 
 .messages::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+
 }
 
 .messages::-webkit-scrollbar-thumb:hover {
