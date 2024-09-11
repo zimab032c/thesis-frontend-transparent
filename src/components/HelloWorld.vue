@@ -3,11 +3,12 @@
     :class="{ 'blur-background': showCompletionModal || showInfoModal }"
     class="chat-container"
   >
-    <audio ref="clickSound" src="/click.mp3" preload="auto" volume="1"></audio>
+    <!-- <audio ref="clickSound" src="/click.mp3" preload="auto" volume="1"></audio> -->
 
     <button @click="toggleInfoModal" class="info-button">
       <i class="fas fa-question"></i>
     </button>
+
 
     <!-- Messages Container -->
     <div class="messages" ref="messagesContainer">
@@ -966,34 +967,36 @@ export default {
 
     // click sound for send button
     playSoundAndSendMessage() {
-      const clickSound = this.$refs.clickSound;
+      // const clickSound = this.$refs.clickSound;
 
-      clickSound
-        .play()
-        .then(() => {
-          console.log("Sound played successfully via Send Button");
-          this.sendMessage();
-        })
-        .catch((error) => {
-          console.error("Error playing sound via Send Button:", error);
-          this.sendMessage();
-        });
+      // clickSound
+      //   .play()
+      //   .then(() => {
+      //     console.log("Sound played successfully via Send Button");
+      //     this.sendMessage();
+      //   })
+      //   .catch((error) => {
+      //     console.error("Error playing sound via Send Button:", error);
+      //     this.sendMessage();
+      //   });
+      this.sendMessage();
     },
 
     // click sound for option buttons
     playSoundAndSendOption(option) {
-      const clickSound = this.$refs.clickSound;
+      // const clickSound = this.$refs.clickSound;
 
-      clickSound
-        .play()
-        .then(() => {
-          console.log("Sound played successfully via Option Button");
-          this.sendOption(option);
-        })
-        .catch((error) => {
-          console.error("Error playing sound via Option Button:", error);
-          this.sendOption(option);
-        });
+      // clickSound
+      //   .play()
+      //   .then(() => {
+      //     console.log("Sound played successfully via Option Button");
+      //     this.sendOption(option);
+      //   })
+      //   .catch((error) => {
+      //     console.error("Error playing sound via Option Button:", error);
+      //     this.sendOption(option);
+      //   });
+      this.sendOption(option);
     },
 
     /**
