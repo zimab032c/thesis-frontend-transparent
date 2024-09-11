@@ -1007,7 +1007,7 @@ export default {
       const userId = sessionStorage.getItem("userId");
 
       axios
-        .post("http://localhost:3000/api/end-session", {
+        .post("https://thesis-backend-transparent.onrender.com/api/end-session", {
           userId,
           sessionEnd: true,
         })
