@@ -1354,7 +1354,7 @@ button:focus {
 
 .messages::-webkit-scrollbar-track {
   background: #f1f1f1;
-  margin: 14px 0; 
+  margin: 20px 0; 
   border-radius: 10px; 
 }
 
