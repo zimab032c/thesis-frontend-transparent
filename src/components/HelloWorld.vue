@@ -243,13 +243,13 @@ export default {
     this.maxInsightWidth = this.calculateMaxInsightWidth();
     this.totalPillWidth = this.maxInsightWidth + 200;
 
-    const clickSound = this.$refs.clickSound;
+    // const clickSound = this.$refs.clickSound;
 
-    clickSound.addEventListener("canplaythrough", () => {
-      console.log("Click sound is fully loaded and ready to play");
-    });
+    // clickSound.addEventListener("canplaythrough", () => {
+    //   console.log("Click sound is fully loaded and ready to play");
+    // });
 
-    clickSound.volume = 1;
+    // clickSound.volume = 1;
   },
 
   async created() {
