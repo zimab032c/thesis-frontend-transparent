@@ -810,7 +810,7 @@ export default {
                   }
                 });
               });
-            }, totalDuration);
+            }, totalDuration + 3000);
           } else {
             // for normal messages (no progress bar)
             this.chatMessages.push({
@@ -833,7 +833,7 @@ export default {
               });
             });
           }
-        }, 5000); // typing delay
+        }, 3000); // typing delay
       } catch (error) {
         console.error("Error sending message:", error);
         this.typingMessage = false;
