@@ -107,8 +107,12 @@
           The data collected during the experiment will be anonymized and
           securely stored for analysis. Only my supervisors and I will have
           access to the data, and it will not be shared with any third parties.
-          If you wish, you can request that your data be permanently deleted at
-          any time during or after the experiment.
+          As part of the data verification process, the email and username you
+          provided for the Zoom meeting registration will also be stored
+          securely. This information will solely be used to verify the
+          authenticity of the data and confirm that the meeting took place. If
+          you wish, you can request that your data be permanently deleted at any
+          time during or after the experiment.
         </p>
       </section>
 
