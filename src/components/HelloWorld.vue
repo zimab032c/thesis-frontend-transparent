@@ -833,7 +833,7 @@ export default {
               });
             });
           }
-        }, 2000); // typing delay
+        }, 5000); // typing delay
       } catch (error) {
         console.error("Error sending message:", error);
         this.typingMessage = false;
