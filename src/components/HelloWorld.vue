@@ -849,11 +849,11 @@ export default {
 
     simulateTyping(message, callback) {
       let index = 0;
-      const minSpeed = 5;
-      const maxSpeed = 10;
-      const shortPause = 8;
-      const longPause = 18;
-      const endPause = 2;
+      const minSpeed = 50;
+      const maxSpeed = 100;
+      const shortPause = 800;
+      const longPause = 1800;
+      const endPause = 2000;
       const minSentenceLengthForPause = 15;
       const keyPauseWords = [
         "therefore",

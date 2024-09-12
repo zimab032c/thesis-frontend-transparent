@@ -190,7 +190,7 @@ export default {
     },
   },
   mounted() {
-    this.simulateTyping("Welcome to the demo");
+    this.simulateTyping("Study Information Page");
   },
 };
 </script>
