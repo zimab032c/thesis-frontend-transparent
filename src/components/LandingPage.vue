@@ -89,10 +89,15 @@
           Next Steps
         </h2>
         <p>
-          When you have completed all the tasks, you’ll be directed to a
-          questionnaire where you can share your feedback and evaluation of the
-          chatbot. The entire process, including the chatbot interaction and the
-          questionnaire, should take about 20 minutes.
+          Feel free to complete these tasks in any order. Your interactions and
+          communication with the chatbot should reflect how you would naturally
+          approach these issues as a customer. Remember, the experiment is not
+          intended to measure your competence at interacting with the system. We
+          simply want your feedback and evaluation, so don't be scared to "make
+          mistakes" When you have completed all the tasks, you’ll be directed to
+          a questionnaire where you can share your feedback and evaluation of
+          the chatbot. The entire process, including the chatbot interaction and
+          the questionnaire, should take about 20 minutes.
         </p>
       </section>
 
