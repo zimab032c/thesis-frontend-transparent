@@ -623,9 +623,13 @@ export default {
         if (isReturningOrderC) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
+            "Checking Return Policy...",
+            "Verifying Product Eligibility...",
             "Attempting to generate return label...",
             "Encountering issues with shipment provider...",
-            "Escalating to human representative...",
             // "Special PILL",
           ];
           console.log("Insights for returning Order C:", this.insights);
@@ -638,6 +642,9 @@ export default {
           this.showProgressBar = true;
           this.insights = [
             // "Costumer Num Pill Success",
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Accessing Customer Database...",
             "Verifying Customer Identity...",
             "Retrieving Order History...",
@@ -681,6 +688,9 @@ export default {
           this.insights = [
             "Verifying Order Status...",
             "Checking Cancellation Policy...",
+            "Confirming Refund Eligibility...",
+            "Processing Cancellation Request..."
+        
             // "Cancel Pill",
           ];
         } else if (this.detectReturnKeywords(this.userMessage)) {
@@ -688,6 +698,8 @@ export default {
           this.insights = [
             "Checking Return Policy...",
             "Verifying Product Eligibility...",
+            "Generating Return Label...",
+            "Notifying Delivery Service Provider..."
             // "Return Pill",
           ];
         } else if (this.detectGiftMessage(this.userMessage)) {
