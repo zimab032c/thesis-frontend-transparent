@@ -810,7 +810,7 @@ export default {
                   }
                 });
               });
-            }, totalDuration + 3000);
+            }, totalDuration + 3500);
           } else {
             // for normal messages (no progress bar)
             this.chatMessages.push({
