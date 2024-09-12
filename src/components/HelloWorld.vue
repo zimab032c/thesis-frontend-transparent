@@ -630,6 +630,8 @@ export default {
             "Verifying Product Eligibility...",
             "Attempting to generate return label...",
             "Encountering issues with shipment provider...",
+            "Token Optimization and Scoring...",
+            "Generating Output"
             // "Special PILL",
           ];
           console.log("Insights for returning Order C:", this.insights);
@@ -648,7 +650,8 @@ export default {
             "Accessing Customer Database...",
             "Verifying Customer Identity...",
             "Retrieving Order History...",
-            "Operation Complete",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Costumer Num Pill Success",
           ];
         } else if (
@@ -659,54 +662,81 @@ export default {
           this.showProgressBar = true;
           this.insights = [
             // "Costumer Num Pill FAIl",
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Accessing Customer Database...",
             "Verifying Customer Identity...",
             "Retrieving Order History...",
-            "Operation Complete",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Costumer Num Pill FAIl",
           ];
         } else if (this.detectTrackingKeywords(this.userMessage)) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Verifying Order Details...",
             "Accessing Shipment Provider Database...",
             "Fetching Current Shipment Status...",
-            "Operations Complete.",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Tracking Pill",
           ];
         } else if (this.detectAddress(this.userMessage)) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Validating New Address...",
             "Updating Order Details...",
             "Notifying Delivery Service Provider...",
             "Recalculating Delivery Time...",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Mod Addy Pill",
           ];
         } else if (this.detectCancelKeywords(this.userMessage)) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Verifying Order Status...",
             "Checking Cancellation Policy...",
             "Confirming Refund Eligibility...",
-            "Processing Cancellation Request..."
-        
+            "Processing Cancellation Request...",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Cancel Pill",
           ];
         } else if (this.detectReturnKeywords(this.userMessage)) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Checking Return Policy...",
             "Verifying Product Eligibility...",
             "Generating Return Label...",
-            "Notifying Delivery Service Provider..."
+            "Notifying Delivery Service Provider...",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Return Pill",
           ];
         } else if (this.detectGiftMessage(this.userMessage)) {
           this.showProgressBar = true;
           this.insights = [
+            "Parsing Input...",
+            "Detecting User Intent...",
+            "Mapping Intent to Available Actions...",
             "Adding Gift Message...",
             "Updating Order Details...",
+            "Token Optimization and Scoring...",
+            "Generating Response"
             // "Gift Pill",
           ];
         } else {
